@@ -10,7 +10,7 @@ export default async  function Home() {
   const PopularMovies =await getPopularMovies();
 
 
-  return (
+  return ( 
     <main className=''>
       <CarouselBannerWrapper />
 
